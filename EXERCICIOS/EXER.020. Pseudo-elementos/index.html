@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+
+        /* SELETORES PERSONALIZADOS
+         #   = id
+         .   = class
+         :   = pseudo-class
+         ::  = pseudo-element
+         >   = children
+        
+        */
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: rgb(246, 13, 13);
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: rgb(42, 116, 165);
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: blueviolet;
+        }
+
+        a:active {
+            color: chartreuse;
+        }
+
+        a::before {
+            content: '⇒ ';
+        }
+
+        a::after {
+          content: ' ⇐';
+          text-decoration: none;
+          font-weight: normal;
+          color: rgba(11, 11, 11, 0.452);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" target="_blank">repositorio HitHub</a></li>
+        <li><a href="https://www.youtube.com/watch?v=T--8Pa1hl7s&t=30s">canal do Youtube</a></li>
+        <li><a href="https://produto.mercadolivre.com.br/MLB-3085275502-amplificador-de-som-ambiente-slim-800-g5-frahm-usb-bluetooth-_JM#reco_item_pos=0&reco_backend=machinalis-adv-hybrid-cruella&reco_backend_type=low_level&reco_client=vip-pads&reco_id=843b0d08-28e6-4a85-a4cc-ed212df4e639&is_advertising=true&ad_domain=VIPCORE_RECOMMENDED&ad_position=1&ad_click_id=M2I3YWY5ZjUtNGY5Zi00ODg2LTkyMmQtZjI5NGNhMGVlNGEw">site do mercadolivre</a></li>
+    </ul>
+    
+</body>
+</html>
