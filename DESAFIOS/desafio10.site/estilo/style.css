@@ -31,7 +31,7 @@
 
 
 body {
-    background-color: #c5ebd6;
+    background-color: #00000098;
     font-family: var(--fonte-padrao);
 }
  
@@ -44,9 +44,9 @@ main p {
     text-align: justify;}
 
 header {
-    background-image: linear-gradient(to bottom, var(--cor7), var(--cor6));
+    background-image:linear-gradient(to bottom, var(--cor7), var(--cor5));
     text-align: center;
-    padding-top: 40px;
+    padding-top:40px;
 }
 
 header > h1 {
@@ -68,7 +68,7 @@ header > p {
     padding-left: 10px;
     padding-right: 10px;
     margin:auto;
-    margin-bottom: 20px;
+    padding-bottom: 50px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.473);
 
 
